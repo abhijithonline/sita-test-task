@@ -2,7 +2,8 @@
 Contains the files to process a file and compute total from the file content
 
 Please use URL(with tomcat port) http://localhost:8080/sita-test-task/process
-
+File are available in package /src/main/java/com/sita/test/task/
+Tests are available in package /src/main/java/com/sita/task/test/
 The web application is created using a simple servlet which invokes Spring Integration
 
 Technologies Used
