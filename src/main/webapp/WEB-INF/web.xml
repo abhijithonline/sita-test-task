@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>SITA WAR</display-name>
+    <context-param>
+	   <param-name>contextConfigLocation</param-name>
+        <param-value>classpath</param-value>
+    </context-param>
+    
+   <servlet>
+       <servlet-name>SitaServlet</servlet-name>
+       <servlet-class>com.sita.test.task.SitaServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>SitaServlet</servlet-name>
+        <url-pattern>/process</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>pages/index.jsp</welcome-file>
+    </welcome-file-list>
+   
+</web-app>
